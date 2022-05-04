@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+/* Variaveis. (Sem configurações globais) */
+:root {
+    --cor_a1: rgb(70, 142, 236);
+    --cor_w: white;
+    --cor_b: black;
+    --cor_a2: rgb(46, 92, 151);
+}
+
+/* Corpo do site. */
+
+body {
+    font: normal 18px Arial, helvetica, sans-serif;
+    background-color: var(--cor_a1);
+}
+
+header {
+    color: var(--cor_w);
+    text-align: center;
+}
+
+section {
+    background-color: var(--cor_w);
+    margin: auto;
+    min-width: 400px;
+    max-width: 700px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px var(--cor_a2);
+}
+
+footer {
+    text-align: center;
+    color: var(--cor_w);
+}
